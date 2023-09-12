@@ -172,7 +172,7 @@ while running:
         bulletY = 480
         bullet_state = "ready"
 
-    if bullet_state is "Fire":
+    if bullet_state == "Fire":
         fire_bullet(bulletX, bulletY)
         bulletY -= bulletY_change
 
